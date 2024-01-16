@@ -1,0 +1,40 @@
+.clock-project {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 150px;
+  padding: 30px;
+  background-color: #fff;
+  opacity: 0.9;
+}
+
+.city {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/110/856/original/world_map_2.jpg?1705420775");
+  background-size: contain;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
