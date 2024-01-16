@@ -9,11 +9,6 @@ h1 {
   text-align: center;
 }
 
-h2 {
-  margin: 0 0 5px;
-  text-align: center;
-}
-
 select {
   display: block;
   width: 100%;
@@ -52,8 +47,7 @@ select {
 
 .time {
   display: flex;
-  justify-content: right;
-  text-align: center;
+  text-align: right;
   font-size: 35px;
 }
 
