@@ -19,27 +19,31 @@
   <body>
     <div class="clock-project">
       <h1>World Clock</h1>
-      <select name="" id="">
+      <select name="" id="selected-city">
         <option value="">Select a country</option>
-        <option value="London">London</option>
-        <option value="Melbourne">Melboune</option>
-        <option value="Lisbon">Lisbon</option>
-        <option value="New York">New York</option>
+        <option value="current">Time where you are</option>
+        <option value="Europe/London">London</option>
+        <option value="Australia/Melbourne">Melbourne</option>
+        <option value="Asia/Tokyo">Tokyo</option>
+        <option value="America/New_York">New York</option>
       </select>
-      <div class="city" id="los-angeles">
-        <div>
-          <h2>Los Angeles</h2>
-          <div class="date"></div>
-        </div>
-        <div class="time"><small></small></div>
-      </div>
 
-      <div class="city" id="sydney">
-        <div>
-          <h2>Sydney</h2>
-          <div class="date">January 2024</div>
+      <div id="cities">
+        <div class="city" id="los-angeles">
+          <div>
+            <h2>Los Angeles</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"><small></small></div>
         </div>
-        <div class="time">17:30 <small> PM</small></div>
+
+        <div class="city" id="sydney">
+          <div>
+            <h2>Sydney</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"><small></small></div>
+        </div>
       </div>
     </div>
 
